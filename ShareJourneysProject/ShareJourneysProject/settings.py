@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-0kg47zz-3rq&)nl7yv1@r$banp_$3j!n+5!n8m3h@#8h&rg$@d'
+SECRET_KEY = 'your_django_sercret_key'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -124,9 +124,9 @@ CKEDITOR_VERSION = '5'
 import cloudinary
 
 cloudinary.config(
-    cloud_name="depgwkadm",
-    api_key="952231983342175",
-    api_secret="Q2zQxgULDrl4SCt4-Qe-xg-buUM"
+    cloud_name="your_cloud_name",
+    api_key="your_api_key",
+    api_secret="your_api_sercret"
 )
 
 AUTH_USER_MODEL = 'ShareJourneysApp.User'
@@ -195,5 +195,3 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = "tuannguyen2022002@gmail.com"
 EMAIL_HOST_PASSWORD = "cszm fick ykby zbjx"
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-# CLIENT_ID ='67sjlAVhkGvULNaUxEXk6JZZN9EtJUgmMLnXZi1A'
-# CLIENT_SECRET ='HIFRCdFUWLp26PCREopmegS0NAbQzicYM5Lwfh2khVZE4XEnGdbuzTQO63xQAuIJzejAkbMG9e9xejkZR0QyfQ39kIPc8H0y8MEmIi0EoV0yNo5hIiOGP1GmkUn5SMrA'
